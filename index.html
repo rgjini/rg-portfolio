@@ -102,7 +102,7 @@
       </div>
       <div class="o-screen-about__col">
         <h1 class="u-mb-5">Rebecca Gjini</h1>
-        <span class="c-screen-about__caption">Graduate Student Researcher in Geophysics</span>
+        <span class="c-screen-about__caption">Keith Julien Visiting Assistant Professor</span>
         <ul class="c-socials u-mb-35">
           <li class="c-socials__item">
             <a href="https://www.linkedin.com/in/rebecca-gjini-8a1401169" target="blank" class="c-socials__link">
@@ -120,18 +120,20 @@
           </a>
         </li>
         </ul>
-        <p class="u-mb-10"><span class="u-block">I am a fifth-year Ph.D. candidate in the 
-          Institute of Geophysics and Planetary Physics (IGPP) within Scripps Institution of Oceanography (SIO) at 
-          the University of California, San Diego (UCSD).  I am currently working on ensemble-based optimization
-          methods for estimating parameters from time-averaged data under the guidance of Matthias Morzfeld.  
-          More specifically, I explore several variations of ensemble methods with the potential to 
+        <p class="u-mb-10"><span class="u-block">I am a Keith Julien Visiting Assistant Professor in the 
+          Department of Applied Mathematics at the University of Colorado Boulder (CU Boulder).  I am 
+          currently working on gradient-based and ensemble-based optimization for learning 
+          parameters from time-averaged data.  
+          More specifically, I work with an auto-differentiable atmospheric model to explore 
+          different calibration algorithms and prediction timescales with the potential to 
           improve global climate model calibration.  
-          </span>  Before UCSD, I studied at Lehigh University,
-          getting an undergraduate degree in mathematics.  I then worked six months at the Argonne 
-          National Laboratory as an intern in both the Mathematics and Computer Science (MCS) and 
-          Environmental Science (EVS) divisions before coming to graduate school. 
-          My main research interests are in data assimilation, inverse modeling, derivative-free optimization, 
-          and cloud physics. </p>
+          </span> I recieved my Ph.D. in Earth Sciences from the Institute of Geophysics and Planetary Physics (IGPP) 
+          within Scripps Institution of Oceanography (SIO) at the University of California San Diego (UC San Diego).
+          At UC San Diego, I worked on optimization and uncertainty quantification for understanding 
+          the climate system under the guidance of Matthias Morzfeld.
+          Before graduate school, I recieved my undergraduate degree in mathematics from Lehigh University.  
+          My main research interests are in data assimilation, inverse modeling, derivative-free optimization,
+          automatic differentiation, and cloud physics. </p>
 
           <!--Old bio: I am currently working on feature-based
           data assimilation for cloud microphysics under the guidance of Matthias Morzfeld.  More specifically,
@@ -142,11 +144,9 @@
         target = "blank" >download cv</a>
 
         <h3 class="u-mb-10">Announcements and Upcoming Events:</h3> <!-- Past -->
-        <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85937"><p class="u-mb-10" > Presenting at the Society for Industrial and Applied Mathematicians (SIAM) conference on Uncertainty Quantification (UQ) (March 2026).
-        </p></a> 
-        <a href="https://www.santafe.edu/events/2026-rising-stars-in-computational-data-sciences-workshop"><p class="u-mb-10" > Participating in the 2026 Rising Stars in Computational and Data Sciences Workshop (April 2026).
-        </p></a> 
         <a href= "https://youtu.be/p93j3A4fZW0?si=zqpcJErcad83Go5J" ><p class="u-mb-10" > Watch a recent recording of me presenting my research at the USACM Energy and Earth Systems TTA Spring Webinar.
+        </p></a>
+        <a href= "https://catalog.colorado.edu/courses-a-z/appm/" ><p class="u-mb-10" > Fall 2026 teaching: APPM 1235 Pre-Calculus for Engineers.
         </p></a>
       </div>
     </div>
@@ -176,13 +176,13 @@
           <ul class="c-timeline__list">
             <li class="c-timeline__item">
               <header class="c-timeline__header">
-                <span class="c-timeline__time">2021-Present</span>
+                <span class="c-timeline__time">2021-2026</span>
                 <span class="c-timeline__line"></span>
                 <h4 class="c-timeline__heading">Institute of Geophysics and Planetary Physics 
                   at Scripps Institution of Oceanography, UC San Diego (La Jolla CA)
                   </h4>
               </header>
-              <p class="c-timeline__body">Doctor of Philosophy in Earth Science (in progress) 
+              <p class="c-timeline__body">Doctor of Philosophy in Earth Sciences 
                 <br>Advisor: Matthias Morzfeld
               </p>
             </li>
@@ -194,7 +194,7 @@
                   at Scripps Institution of Oceanography, UC San Diego (La Jolla CA)
                 </h4>
               </header>
-              <p class="c-timeline__body">Master of Science in Earth Science</p>
+              <p class="c-timeline__body">Master of Science in Earth Sciences</p>
             </li>
             <li class="c-timeline__item">
               <header class="c-timeline__header">
@@ -278,10 +278,9 @@
                   using statistics from the ensemble.
                   During each iteration, the ensemble members are updated 
                   using the derivative approximation and eventually the ensemble will collapse onto the minimizer of the loss function. 
-                  I presented some of my research on iterative ensemble methods at the 
-                  20th international EnKF workshop (June 2025).</p>
-                  <p class="c-card__link-caption">Check out my presentation:</p>
-                  <a class="c-card__link" href="https://www.data-assimilation.no/workshops/EnKF-WS-2025" target="blank" >Derivative-Free, Ensemble-Based Optimization for Inverse Problems with Time-Averaged Data and Chaotic Dynamics</a>
+                  To learn more about different iterative ensemble Kalman methods, check out this recent preprint.</p>
+                  <p class="c-card__link-caption">Check out my research:</p>
+                  <a class="c-card__link" href="https://arxiv.org/abs/2511.15853" target="blank" >The Ensemble Kalman Inversion Race</a>
               </div>
             </div>
             <div class="c-card__button">
@@ -334,8 +333,8 @@
                   solutions help us understand physical processes that are difficult to observe.  The opposite of a forward problem, 
                   inverse problems are used to determine the factors that cause a set of observations to occur.  One method of solving 
                   inverse problems is to use a Bayesian approach.  The idea behind Bayesian inversion is to better understand model parameters 
-                  (and their associated model output) in relation to data.  In my research, I specifically use feature-based Bayesian 
-                  inversion and Markov-chain Monte Carlo (MCMC) to numerically solve an inverse problem.  For more information on feature-based 
+                  (and their associated model output) in relation to data.  In my research, I use various Bayesian inference methods,
+                  such as feature-based Bayesian inversion and Markov-chain Monte Carlo (MCMC).  For more information on feature-based 
                   inversion and its applications to various numerical problems, below is a paper written by my advisor.</p>
                 <p class="c-card__link-caption">Check out this journal article:</p>
                 <a class="c-card__link" href="https://npg.copernicus.org/articles/25/355/2018/" target = "blank" >Feature-based data assimilation in geophysics</a>
@@ -371,9 +370,9 @@
                   written in Python and JAX.  JCM combines the dynamical core (Dinosaur) from Google's NeuralGCM with JAX implementations of 
                   atmospheric physics parameterizations.  Many research directions can be explored with a differentiable climate model, 
                   including gradient-based calibration, data assimilation, and ML-enhanced climate modeling.  For more information on JCM, 
-                  below are links to the preprint and repository!</p>
+                  below are links to the paper and repository!</p>
                 <p class="c-card__link-caption">Check out JCM:</p>
-                <a class="c-card__link" href="https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6266/" target = "blank" >JCM preprint</a>
+                <a class="c-card__link" href="https://gmd.copernicus.org/articles/19/6451/2026/" target = "blank" >JCM paper</a>
                 <a class="c-card__link" href="https://github.com/climate-analytics-lab/jax-gcm?tab=readme-ov-file" target = "blank" >JCM repository</a>
               </div>
             </div>
@@ -403,30 +402,31 @@
           
           <div class="c-article__item">
             <figure class="c-article__image">
-              <img src="app/dist/pic/PyDDA.jpg" alt="">
+              <img src="app/dist/pic/JCM.jpg" alt="">
             </figure>
             <div class="c-article__body">
-              <h3 class="c-article__header">Improving PyDDA’s atmospheric wind retrievals using automatic differentiation and Augmented
-                Lagrangian method</h3>
-              <p class="c-article__cite">2022 Proceedings of the 21st Python in Science Conference, 2022, pp. 210–216</p>
-              <p class="c-article__text">R. Jackson, R. Gjini, S. H. K. Narayanan, M. Menickelly, P. Hovland, J. Hückelheim, and S. Collis</p>
+              <h3 class="c-article__header">JCM v1.1: a differentiable, intermediate-complexity atmospheric model</h3>
+              <p class="c-article__cite">Geoscientific Model Development</p>
+              <p class="c-article__text">Ellen H. Davenport, J. Varan Madan, Rebecca Gjini, Jared Brzenski, 
+                Benjamin Crawford, Nick Ho, Tien-Yiao Hsu, Yueshan Liang, Zhixing Liu, Veeramakali Manivannan, 
+                Eric Pham, Rohith Vutukuru, Andrew I. L. Williams, Zhiqi Yang, Rose Yu, Nicholas J. Lutsko, 
+                Stephan Hoyer, and Duncan Watson-Parris </p>
               <div class="c-article__button">
-                <a href="https://conference.scipy.org/proceedings/scipy2022/pdfs/robert_jackson.pdf" target = "blank" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
+                <a href="https://gmd.copernicus.org/articles/19/6451/2026/" target = "blank" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
               </div>
             </div>
           </div>
 
           <div class="c-article__item">
             <figure class="c-article__image">
-              <img src="app/dist/pic/Trophy.jpg" alt="">
+              <img src="app/dist/pic/eki-race.jpg" alt="">
             </figure>
             <div class="c-article__body">
-              <h3 class="c-article__header">TROPHY: Trust Region Optimization Using a Precision Hierarchy</h3>
-              <p class="c-article__cite">International Conference on Computational
-                Science, Springer International Publishing, 2022, pp. 445–459</p>
-              <p class="c-article__text">R. J. Clancy, M. Menickelly, J. Hückelheim, P. Hovland, P. Nalluri, and R. Gjini</p>
+              <h3 class="c-article__header">The Ensemble Kalman Inversion Race</h3>
+              <p class="c-article__cite">Preprint</p>
+              <p class="c-article__text">Rebecca Gjini, Matthias Morzfeld, Oliver R.A. Dunbar, and Tapio Schneider</p>
               <div class="c-article__button">
-                <a href="https://arxiv.org/abs/2202.08387" target = "blank" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
+                <a href="https://arxiv.org/abs/2511.15853" target = "blank" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
               </div>
             </div>
           </div>
@@ -569,7 +569,7 @@
 
     <div class="c-screen-contact o-screen-contact">
       <div class="o-screen-contact__col-info">
-        <a class="c-screen-contact__item" href="mailto:mailme@gmail.com">rgjini@ucsd.edu</a>
+        <a class="c-screen-contact__item" href="mailto:mailme@gmail.com">Rebecca.Gjini@colorado.edu</a>
         <ul class="c-socials u-mb-20">
           <li class="c-socials__item">
             <a href="https://www.linkedin.com/in/rebecca-gjini-8a1401169" target="blank" class="c-socials__link">
@@ -588,10 +588,9 @@
           </li>
         </ul>
         <ul class="c-screen-contact__address">
-          <li>Institute of Geophysics and Planetary Physics,</li>
-          <li>Munk Building,</li>
-          <li>Scripps Institution of Oceanography,</li>
-          <li>UC San Diego</li>
+          <li>Engineering Center,</li>
+          <li>Department of Applied Mathematics,</li>
+          <li>University of Colorado Boulder</li>
         </ul>
       </div>
     </div>
